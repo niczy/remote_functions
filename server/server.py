@@ -112,7 +112,7 @@ def main():
     global tools_path
     tools_path = args.tools_path
 
-    uvicorn.run(app, host="0.0.0.0", port=8080)
+    uvicorn.run(app, host="127.0.0.1", port=3001)
 
 if __name__ == "__main__":
     main()
